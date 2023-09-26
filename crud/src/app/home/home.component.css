@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+h1{
+    color: rgb(108, 159, 198);  
+    
+}
+h2{
+    padding-bottom: 20px;
+}
+.image-container img{
+    width:  50vw;
+}
+.astronomyPicture {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.text-container {
+    padding: 10px;
+    color: white;
+    font-size: 19px;
+    text-align: justify;
+}

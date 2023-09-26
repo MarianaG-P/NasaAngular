@@ -1,0 +1,15 @@
+h1{
+    font-weight: 500;
+    color: rgb(108, 159, 198); 
+}
+div{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    width: 20vw;
+}
