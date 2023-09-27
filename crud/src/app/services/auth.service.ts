@@ -65,6 +65,7 @@ export class AuthService {
   }
 
   logout(){
+    this.db.table('usuarios').update(this.userData.id, {session:false})
     this.userData.session = false;
     this.setAuthState(false);
     return false;
